@@ -1,0 +1,26 @@
+<!-- 第一个区域：图片 -->
+<view>
+  <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=624637620,2003969594&fm=26&gp=0.jpg"></image>
+</view>
+<!-- 第二个区域：文字 -->
+<view class="bookintro">
+  <h>书名：</h>
+   <text>Becoming</text>
+  <h>作者：</h>
+   <text>Michelle Obama</text>
+  <h>出版社：</h>
+   <text>天地出版社</text>
+  <h>简介：</h>
+   <text>《Becoming》详细记录了米歇尔生活中的所有重要细节，包括在芝加哥南部度过的童年、成年后的职业生涯和作为母亲的经历，以及她在白宫的经历、在公共卫生领域展开的运动，奥巴马执政中的重要时刻。</text>
+  <h>章节信息：</h>
+   <p style="white-space:pre-wrap; line-height:50rpx;">
+    目录
+    序
+    Part I 成为我
+    Part II 成为我
+    Part III 成为更多
+    后记
+    致谢</p>
+  <!-- <button open-type="getUserInfo"   
+bindgetuserinfo="getMyInfo">点击前往购买</button> -->
+</view>
