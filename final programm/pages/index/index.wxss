@@ -1,0 +1,68 @@
+/*.map-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 40px;
+  left: 0;
+background: greenyellow;
+}
+.map{
+  width: 100%;
+  height: 100%
+}*/
+.userinfo {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 100px;
+  color: #aaa;
+  display: flex;
+  align-items: center;
+}
+
+/*下方按钮*/
+.btns {
+  position: absolute;
+  display: flex;
+  left:0;
+  right: 0;
+  line-height: 40px;
+  bottom: 0;
+  background: #67dbeb;
+}
+.btn{
+  flex: 1;
+  text-align: center;
+  color: #fff;
+}
+.btn-publish{
+  background: #ff9c9c
+}
+
+
+.classname{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+
+}
+.classname-publish{
+    align-items: center;
+}
