@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/output/output",
+    "pages/income/income",
+    "pages/total/total.wxml"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#aaf1bc",
+    "navigationBarTitleText": "记账本",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "gray"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#0088A8",
+    "borderStyle": "black",
+    "backgroundColor": "#aaf1bc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home-active.png",
+        "selectedIconPath": "images/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/income/income",
+        "iconPath": "images/record.png",
+        "selectedIconPath": "images/record-active.png",
+        "text": "收入"
+      },
+      {
+        "pagePath": "pages/output/output",
+        "iconPath": "images/record.png",
+        "selectedIconPath": "images/record-active.png",
+        "text": "支出"
+      },
+      {
+        "pagePath": "pages/output/output",
+        "iconPath": "images/home-active.png",
+        "selectedIconPath": "images/home.png",
+        "text": "统计"
+      }
+    ]
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap54.json"
+}
