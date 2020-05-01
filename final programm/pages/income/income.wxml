@@ -1,0 +1,57 @@
+<!--index.wxml-->
+<view class="container">
+
+    <form catchsubmit="formSubmit" >
+      <view class="account-detail"> 
+        <input placeholder="时间" name="inputdetail"  type="text" />
+      </view>
+<!--分类标签选择  -->
+      <view class='btn_view'>
+        <text>分类：</text>
+        <block wx:for="{{obtnArry}}" >
+          <view class='label_view {{item.selected ? "active" : ""}}' data-value="{{item.name}}" bindtap='dealTap' checked="{{item.selected}}" data-index="{{index}}">
+            {{item.name}}
+          </view>
+        </block>
+        <van-popup show="{{ show }}" bind:close="onClose" close-on-click-overlay="{{false}}" overlay="false">
+        </van-popup>
+        </view>
+        
+  <!-- 数额 -->
+      <view class="account-amount"> 
+        <input placeholder="收入数额" name="inputamount" type="number" />
+      </view>
+      
+      <view class="add-one">
+        <button formType="submit" type="primary"  style="background-color: #7ED321" loading="{{buttonLoading}}"> 添加 </button>
+      </view>
+    </form>
+
+    <view  class="account-list-text">
+      <text>账单列表:</text>
+    </view>
+
+    <view  class="account-list-all-amount">
+      <text>共收入:{{accountTotal}}</text>
+    </view>
+    
+    <block wx:for="{{accountData}}" >
+      <view class="account-list">
+        <view class="account-list-detail">
+          {{item.detail}}
+        </view>
+
+        <view class="account-list-amount">
+          {{item.amount}}
+        </view>
+
+        <view class="account-list-del">
+            <button size="mini"  type="warn"  data-index-key="{{index}}"  bindtap="deleteRow" >删除</button>
+        </view>
+
+        </view>
+    </block>
+
+    
+
+</view>

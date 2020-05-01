@@ -1,0 +1,129 @@
+pages{
+  height: 100%;
+}
+
+.determine_button{
+  background: #fae153;
+  color: white;
+  border-radius: 10rpx;
+  height: 60rpx;
+  line-height:60rpx;
+  position: fixed;
+  bottom: 5rpx;
+  left: 8rpx;
+  width: 46%;
+}
+.determine_button1{
+  background: #fae153;
+  color: white;
+  border-radius: 10rpx;
+  height: 60rpx;
+  line-height:60rpx;
+  position: fixed;
+  bottom: 5rpx;
+  right: 8rpx;
+  width: 46%;
+}
+.label_view{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rpx 10rpx;
+  width: 140rpx;
+  height: 50rpx;
+  border: 1rpx solid rgb(114, 107, 107);
+  font-size: 26rpx;
+  border-radius: 12rpx;
+  color: rgb(114, 107, 107);
+  margin-right: 5rpx;
+  margin-top: 15rpx;
+}
+.btn_view{
+  margin: 10rpx 15rpx;
+  font-size: 26rpx;
+  color: rgb(99, 95, 95);
+  width: 700rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.btn_view text{
+  display: flex;
+  align-items: center;
+}
+.active{
+  background: #fae153;
+  border: 1rpx solid rgb(255, 253, 253);
+}
+.btn_view .img{
+  margin-top: 8rpx;
+  width: 65rpx;
+  height: 65rpx;
+}
+.input_view{
+  font-size: 28rpx;
+  width: 400rpx;
+  height: 270rpx;
+  margin: 20rpx 20rpx;
+}
+.input{
+  margin-top: 20rpx;
+  margin-left: 22rpx;
+  width: 350rpx;
+  border: 1px #aaa solid
+}
+
+
+
+.account-detail{
+    height: 100rpx;
+    padding: 0 30rpx;
+}
+
+.account-amount{
+    padding: 0 30rpx;
+}
+
+.add-one{
+    margin-top: 20rpx;
+    background-color: rgb(168, 245, 117);
+    align-items: center ;
+    margin-left: 280rpx ;
+    margin-right: 280rpx;
+}
+
+.account-list-text{
+    color:gray;
+    margin:30rpx 0 0 30rpx;
+}
+
+.account-list-all-amount{
+    color:gray;
+    align-self: flex-end;
+    padding-right: 25rpx;
+}
+
+
+.account-list{
+    color:gray;
+    margin:30rpx 0 0 30rpx;
+    display: flex;
+    flex-direction: row;
+    background-color:wheat;
+    line-height: 70rpx;
+}
+
+
+.account-list-detail{
+    flex:1;
+}
+
+
+.account-list-amount{
+    width: 100rpx;
+}
+ 
+.account-list-del{
+    color: 
+}
